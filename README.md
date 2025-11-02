@@ -1,8 +1,7 @@
 # langchain_base_demo
 
 #### 介绍
-针对langchain框架集成通义大模型实现聊天机器人的demo实例以及Langchain的LCEL表达式执行chain等应用功能
-
+针对langchain框架的LLMS模型接口,结合Langchain多个模块，快速实现磁盘监控以及监控告警功能的实用工具。 
 #### 功能说明
 1 通过bash_chain实现查询操作系统的所有磁盘使用情况
 2 通过alarm_chain 结合bash_chain查询到的磁盘使用情况判断是否需要告警
